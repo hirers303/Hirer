@@ -15,13 +15,13 @@ const Heading = () => {
 
   return (
     <div className='h-84'>
-      <h1 className={`heading ${isVisible ? 'animate-slidein' : 'animate-slideout'}`}>
+      <h1 className={`text-3xl md:text-4xl heading ${isVisible ? 'animate-slidein' : 'animate-slideout'}`}>
         {isVisible ? 'Find, Apply, and Secure' : 'Elevate your team with Hirers! Post opportunities, find excellence, and empower your organization.'}
       </h1>
-      <h1 className={`heading-1 ${isVisible ? 'animate-slideout' : 'animate-slidein'}`}>
+      <h1 className={`text-3xl heading-1 ${isVisible ? 'animate-slideout' : 'animate-slidein'}`}>
         {isVisible ? 'Your Dream Job with Hirers in Just 2 Days!' : 'Join the journey with Hirers towards building a stronger, more accomplished team.'}
       </h1>
-      <p className='tagline'>Experience the accelerated journey to your dream career with us.</p>
+      <p className='text-xl tagline'>Experience the accelerated journey to your dream career with us.</p>
     </div>
   );
 }

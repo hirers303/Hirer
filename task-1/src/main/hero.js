@@ -15,7 +15,7 @@ const Hero = () => {
     <>
       <div className='background'>
         <div className='Body'>
-<Heading/>
+{/* <Heading/> */}
           <div className='Cards'>
             <div className='c'>
             <div className="md:flex-shrink-0 employer-div">

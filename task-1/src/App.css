@@ -72,13 +72,9 @@ body {
 
 .heading {
   font-family: Inter;
-  font-size: 54px;
   font-weight: 700;
-  line-height: 65px;
-  letter-spacing: 0em;
   text-align: center;
   height: auto;
-  /* Adjusted for responsiveness */
   position: relative;
   top: 2rem;
   color: #393285;
@@ -87,12 +83,8 @@ body {
 .heading-1 {
 
   height: auto;
-  /* Adjusted for responsiveness */
   font-family: Inter;
-  font-size: 54px;
   font-weight: 700;
-  line-height: 65px;
-  letter-spacing: 0em;
   text-align: center;
   position: relative;
   top: 2rem;
@@ -100,14 +92,10 @@ body {
 }
 
 .tagline {
-  height: auto;
-  /* Adjusted for responsiveness */
   top: 10%;
-  /* Adjusted for responsiveness */
   text-align: center;
   position: relative;
   font-family: ABeeZee;
-  font-size: 28px;
   font-weight: 400;
   line-height: 33px;
   top: 2rem;

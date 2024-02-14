@@ -10,7 +10,10 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <Hero/>
+      <div className='background'>
+              {/* <Hero/> */}
+              <Heading/>
+      </div>
 
     </div>
   );
