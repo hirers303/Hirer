@@ -1,3 +1,113 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.main-div{
+    height:auto;
+    width:100%;
+}
+@media (min-width:730px)and (max-width:1230px){
+.div1-img1{
+    height:10rem;
+
+}
+.div2-img1{
+    height:9rem;
+    width: 24rem;
+    margin-left: 6rem;
+
+}
+
+.div2-img2{
+    height:9rem;
+    width: 24rem;
+    margin-right: 6rem;
+
+}
+.div3-img1{
+    height: 10rem;
+    width: 8rem;
+    margin-left: 7rem;
+}
+
+.div3-img2{
+    height: 10rem;
+    width: 10rem;
+    margin-right: 3rem;
+
+}
+
+.div4-img1{
+    height:9rem;
+    width: 24rem;
+    margin-left: 6rem;
+}
+
+.div4-img2{
+    height:9rem;
+    width: 24rem;
+    margin-right: 6rem;
+}
+
+.div5-img1{
+    height:10rem;
+
+}
+}
+
+@media (min-width:360px)and (max-width:729px){
+    .div1-img1{
+        height:10rem;
+    
+    }
+    .div2-img1{
+        height:9rem;
+        width: 24rem;
+        margin-left: 6rem;
+    
+    }
+    
+    .div2-img2{
+        height:9rem;
+        width: 24rem;
+        margin-right: 6rem;
+    
+    }
+    .div3-img1{
+        height: 10rem;
+        width: 8rem;
+        margin-left: 7rem;
+    }
+    
+    .div3-img2{
+        height: 10rem;
+        width: 10rem;
+        margin-right: 3rem;
+    
+    }
+    
+    .div4-img1{
+        height:9rem;
+        width: 24rem;
+        margin-left: 6rem;
+    }
+    
+    .div4-img2{
+        height:9rem;
+        width: 24rem;
+        margin-right: 6rem;
+    }
+    
+    .div5-img1{
+        height:10rem;
+    
+    }
+}
+
+@media (min-width:360px)and (max-width:490px){
+.main-div{
+    width: 137%;
+    height: 137%;
+}
+
+}
+

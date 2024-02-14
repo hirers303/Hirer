@@ -21,23 +21,23 @@ export default function Frame4() {
 
       </div>
       <div className='subdiv2 relative  flex justify-between'>
-        <img className="div2-img1 self-start w-[40%] mt-[-5rem] ml-[3rem]" src={arrow4} alt="" />
+        <img className="div2-img1  " src={arrow4} alt="" />
 
-        <img className="div2-img2 self-end w-[40%] mt-[-5rem] mr-[3rem]" src={arrow1} alt="" />
+        <img className="div2-img2 " src={arrow1} alt="" />
       </div>
       <div className='subdiv3 flex justify-between'>
-        <img className="div3img1 ml-[6rem] mt-[-5rem] self-start " src={image4} alt="pic1" />
-        <img className="div3img2 mr-[2rem] mt-[-5rem] self-end " src={image2} alt="" />
+        <img className="div3-img1  " src={image4} alt="pic1" />
+        <img className="div3-img2 " src={image2} alt="" />
       </div>
 
       <div className='subdiv4 flex justify-between'>
         
-        <img className="div4-img1 w-[40%] mt-[-4rem] ml-[-1rem] self-start" src={arrow3} alt="" />
-        <img className="div4-img2 w-[40%] mt-[-4rem] mr-[2rem] self-end" src={arrow2} alt="" />
+        <img className="div4-img1  " src={arrow3} alt="" />
+        <img className="div4-img2 " src={arrow2} alt="" />
       </div>
 
       <div className='subdiv5 flex justify-center items-center'>
-        <img className="div5-img1 w-[40%] mt-[-9rem]" src={image3} alt="" />
+        <img className="div5-img1 " src={image3} alt="" />
       </div>
       
 
