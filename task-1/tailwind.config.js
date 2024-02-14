@@ -3,6 +3,12 @@ module.exports = {
   content: ["./src/**/*.{,js}"],
   theme: {
     extend: {
+      fontSize: {
+        '20px': '20px', // Add custom font size
+      },
+      fontWeight: {
+        '500': 500, // Add custom font weight
+      },
       fontFamily: {
         "inter": ["Inter", "sans-serif"]
       },
