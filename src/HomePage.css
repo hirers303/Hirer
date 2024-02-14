@@ -1,0 +1,110 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.big-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #393285;
+  font-size: 35px;
+  font-family: inter;
+}
+
+.blocks {
+  display: flex;
+  width: 80%;
+  gap: 60px;
+  
+
+}
+
+.block {
+  width: 322px;
+  height: 475px;
+  margin: 0 1%;
+  padding: 2% 3.1%;
+  
+  border-radius: 30px;
+  background-color: #bfc2e4;
+}
+
+
+
+.blocks .block .content {
+  text-align: center;
+  
+}
+
+.purple {
+  color: white;
+}
+
+.content h2 {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.heading {
+  position: absolute;
+  width: 291px;
+  height: 48px;
+  top: 276px; /* Adjusted position to be below the photo */
+  left: 170px;
+  background: #393285; /* New background color */
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  border-radius: 15px; /* Add some border-radius for styling */
+}
+
+.heading h2 {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white; /* Adjust text color to be visible on the background */
+}
+
+.blocks .block .content .content1{
+    text-align: left;
+    color: black;
+    
+}
+
+.blocks .block .content #third{
+    position: relative;
+    top: -50px;
+}
+
+.blocks .block .content #first{
+    position: relative;
+    top: 27px;
+    padding: 2% 1.5%;
+}
+
+.blocks .block .content h2{
+    color: #393285;
+
+}
+
+.blocks .block .content p{
+    font-size: 22px;
+    padding-top: 0;
+
+}
+
+.blocks .block .content h3{
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 0;
+    line-height: 0.5px;
+
+}

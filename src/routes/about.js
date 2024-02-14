@@ -1,25 +1,25 @@
-import React from 'react';
-import imagePath from '../Web Service Pricing Plans.png';
+// import React from 'react';
+// import imagePath from '../Web Service Pricing Plans.png';
 
-const LargeImageComponent = () => {
-  // const imagePath = process.env.PUBLIC_URL + '/img.jpg';
+// const LargeImageComponent = () => {
+//   // const imagePath = process.env.PUBLIC_URL + '/img.jpg';
 
-  return (
-    <div>
-      <h1></h1>
-      <a href={imagePath} target="_blank" rel="noopener noreferrer">
-        View Image
-      </a>
-      <img
-        src={imagePath}
-        alt="Large Image"
-        style={{ maxWidth: '100%', height: 'auto' }}
-      />
-    </div>
-  );
-};
+//   return (
+//     <div>
+//       <h1></h1>
+//       <a href={imagePath} target="_blank" rel="noopener noreferrer">
+//         View Image
+//       </a>
+//       <img
+//         src={imagePath}
+//         alt="Large Image"
+//         style={{ maxWidth: '100%', height: 'auto' }}
+//       />
+//     </div>
+//   );
+// };
 
-export default LargeImageComponent;
+// export default LargeImageComponent;
 
 
 // import React from 'react';
