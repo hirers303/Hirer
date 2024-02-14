@@ -1,0 +1,10 @@
+
+@media (max-width: 500px) {
+   .img-1{
+      width: 10px; 
+      height: 10px;
+   }
+   .bcg{
+      background-color: aqua;
+   }
+ }
