@@ -2,61 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 .main-div{
-    height:auto;
+    height:100vh;
     width:100%;
 }
-@media (min-width:730px)and (max-width:1230px){
-.div1-img1{
-    height:10rem;
 
-}
-.div2-img1{
-    height:9rem;
-    width: 24rem;
-    margin-left: 6rem;
-
-}
-
-.div2-img2{
-    height:9rem;
-    width: 24rem;
-    margin-right: 6rem;
-
-}
-.div3-img1{
-    height: 10rem;
-    width: 8rem;
-    margin-left: 7rem;
-}
-
-.div3-img2{
-    height: 10rem;
-    width: 10rem;
-    margin-right: 3rem;
-
-}
-
-.div4-img1{
-    height:9rem;
-    width: 24rem;
-    margin-left: 6rem;
-}
-
-.div4-img2{
-    height:9rem;
-    width: 24rem;
-    margin-right: 6rem;
-}
-
-.div5-img1{
-    height:10rem;
-
-}
-}
-
-@media (min-width:360px)and (max-width:729px){
+    .subdiv3{
+        margin-top: 0.45rem;
+    }
     .div1-img1{
-        height:10rem;
+        height:7rem;
     
     }
     .div2-img1{
@@ -73,13 +27,13 @@
     
     }
     .div3-img1{
-        height: 10rem;
+        height: 9rem;
         width: 8rem;
         margin-left: 7rem;
     }
     
     .div3-img2{
-        height: 10rem;
+        height: 9rem;
         width: 10rem;
         margin-right: 3rem;
     
@@ -98,16 +52,117 @@
     }
     
     .div5-img1{
-        height:10rem;
+        height:9rem;
+    
+    }
+    
+@media (min-width:950px)and (max-width:1245px){
+.subdiv3{
+    margin-top: 0.45rem;
+}
+.div1-img1{
+    height:7rem;
+
+}
+.div2-img1{
+    height:9rem;
+    width: 24rem;
+    margin-left: 6rem;
+
+}
+
+.div2-img2{
+    height:9rem;
+    width: 24rem;
+    margin-right: 6rem;
+
+}
+.div3-img1{
+    height: 9rem;
+    width: 8rem;
+    margin-left: 7rem;
+}
+
+.div3-img2{
+    height: 9rem;
+    width: 10rem;
+    margin-right: 3rem;
+
+}
+
+.div4-img1{
+    height:10rem;
+    width: 24rem;
+    margin-left: 6rem;
+}
+
+.div4-img2{
+    height:10rem;
+    width: 24rem;
+    margin-right: 6rem;
+}
+
+.div5-img1{
+    height:8rem;
+
+}
+}
+
+@media (min-width:360px)and (max-width:950px){
+    .div1-img1{
+        height:8rem;
+    
+    }
+    .div2-img1{
+        height: 34%;
+    width: 17%;
+    margin-left: 15%;
+    margin-top: 3%;
+    
+    }
+    
+    .div2-img2{
+        height: 34%;
+    width: 17%;
+    margin-left: 15%;
+    margin-top: 3%;
+    
+    }
+    .div3-img1{
+        height: 9rem;
+        width: 17%;
+        margin-left: 15%;
+        margin-top: 3%;
+    }
+    
+    .div3-img2{
+        height: 9rem;
+        width: 17%;
+        margin-right: 15%;
+        margin-top: 3%;
+    
+    }
+    
+    .div4-img1{
+        height: 34%;
+        width: 17%;
+        margin-left: 15%;
+        margin-top: 3%;
+    }
+    
+    .div4-img2{
+        height: 34%;
+    width: 17%;
+    margin-right: 15%;
+    margin-top: 3%;
+    }
+    
+    .div5-img1{
+        margin-top: 0.65rem;
+        height:8rem;
     
     }
 }
 
-@media (min-width:360px)and (max-width:490px){
-.main-div{
-    width: 137%;
-    height: 137%;
-}
 
-}
 
