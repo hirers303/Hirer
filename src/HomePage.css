@@ -1,8 +1,10 @@
-.homepage {
+
+
+/* .homepage {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
 .big-heading {
   text-align: center;
@@ -14,16 +16,18 @@
 
 .blocks {
   display: flex;
-  width: 80%;
-  gap: 60px;
-  
+  /* max-width: 80%; */
+  /* gap: 60px; */
+  justify-content: space-evenly;
+  margin: 0 7%;
+  flex-wrap: wrap;
 
 }
 
 .block {
-  width: 322px;
+  width: 300px;
   height: 475px;
-  margin: 0 1%;
+  margin: 1% 1%;
   padding: 2% 3.1%;
   
   border-radius: 30px;
@@ -54,13 +58,13 @@
   position: absolute;
   width: 291px;
   height: 48px;
-  top: 276px; /* Adjusted position to be below the photo */
+  top: 276px;
   left: 170px;
-  background: #393285; /* New background color */
+  background: #393285; 
   display: flex;
-  justify-content: center; /* Center the content horizontally */
-  align-items: center; /* Center the content vertically */
-  border-radius: 15px; /* Add some border-radius for styling */
+  justify-content: center; 
+  align-items: center; 
+  border-radius: 15px; 
 }
 
 .heading h2 {
@@ -70,7 +74,7 @@
   line-height: 34px;
   letter-spacing: 0em;
   text-align: left;
-  color: white; /* Adjust text color to be visible on the background */
+  color: white; 
 }
 
 .blocks .block .content .content1{
@@ -108,3 +112,4 @@
     line-height: 0.5px;
 
 }
+
