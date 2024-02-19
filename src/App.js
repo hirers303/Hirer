@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import AboutUs from './components/AboutUs';
 import Modal from './components/Modal';
 import ContactUs from './components/ContactUs';
+import JobDescription from './components/JobDescription';
 
 const App = () => {
     const [open, setOpen] = useState(false);
@@ -14,6 +15,7 @@ const App = () => {
                 isOpen={open}
                 closeModal={() => setOpen(false)}
             />
+            <JobDescription />
         </>
     )
 }
