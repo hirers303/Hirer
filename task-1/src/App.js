@@ -5,6 +5,9 @@ import Cardd from './componets/Cards';
 import Navbar from './main/NavBar';
 import Heading from './main/heading';
 import Hero from './main/hero';
+import Job from './main/jobListing';
+import JobRegister from './main/JobRegister';
+import Login from './main/login';
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
               {/* <Hero/> */}
               <Heading/>
       </div>
+      {/* <Job/> */}
+      {/* <JobRegister/> */}
+      {/* <Login/> */}
 
     </div>
   );

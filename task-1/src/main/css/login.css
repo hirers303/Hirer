@@ -1,0 +1,161 @@
+.login-container {
+    display: flex;
+    height: 50vh;
+    width: 100%;
+}
+
+/* .Desc{
+    width: 50%;
+    position: relative;
+  top: 5vh;
+  } */
+
+.Desc h1 {
+    text-align: center;
+    font-size: 53px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 77.45px;
+    color: #393285;
+}
+
+.Desc p {
+    text-align: center;
+}
+
+.register p {
+    text-align: left;
+    font-size: 10px;
+    width: 95px;
+    margin-left: 35px;
+    position: relative;
+    left: 35px;
+    top: 25px;
+}
+
+.login {
+    width: 50%;
+}
+
+.Login {
+    height: 85%;
+    width: 85%;
+    border-radius: 50px;
+    background-color: #DFDCF7;
+    place-content: center;
+    display: grid;
+}
+
+.company {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login p {
+    text-align: center;
+}
+
+.Login button {
+    width: 25vw;
+    height: 6vh;
+    top: 253px;
+    left: 829px;
+    border-radius: 10px;
+    background-color: #393285;
+    margin: 20px 0;
+    color: white;
+}
+
+.Login h3 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.Number-input{
+    border-radius: 10px;
+    width: 20vw;
+    height: 40px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+        height: 75vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Desc{
+        margin-bottom: 14px;
+    }
+
+    .login {
+        width: 90%;
+        margin-top: 35px;
+    }
+
+    .Login {
+        height: 40vh;
+        width: 100%;
+        border-radius: 50px;
+        background-color: #DFDCF7;
+        place-content: center;
+        display: grid;
+    }
+
+    .Number-input{
+        width: 70%;
+    }
+
+    .Login button{
+        width: 100%;
+    }
+
+    .companies{
+        margin-top: 10px;
+    }
+
+    .company{
+        margin-top: 10px;
+    }
+
+    .company > img{
+        margin: 0 10px;
+        width: 33%;
+    }
+
+    .companies{
+        position: relative;
+        top: 10vh;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .Desc h1{
+        line-height: 39px;
+        font-size:xx-large;
+        margin-top: 28px;
+    }
+
+    .Login{
+        height: 46vh;
+    }
+
+    .Login h3{
+        text-align: center;
+    }
+
+    .companies{
+        position: relative;
+        top: 3vh;
+    }
+}

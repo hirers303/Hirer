@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        '20px': '20px', // Add custom font size
+        '20px': '20px',
       },
       fontWeight: {
-        '500': 500, // Add custom font weight
+        '500': 500,
       },
       fontFamily: {
         "inter": ["Inter", "sans-serif"]
